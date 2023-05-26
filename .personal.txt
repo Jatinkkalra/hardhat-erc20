@@ -1,0 +1,20 @@
+Personal Notes
+
+Setup:
+    - `yarn add --dev hardhat`      // gives node_modules, package.json and yarn.lock
+    - `yarn hardhat`        // Create an empty hardhat.config.js
+
+    - `yarn add --dev @openzeppelin/contracts`
+
+Create:
+    - ".env" file
+    - "contracts" folder
+        - "ManualToken.sol" // Hard way
+        - "OurToken.sol"    // Easy way. OpenZeppelin library (the standard library for solidity) for boiler-plate.
+    
+
+Notes:
+    - Tokens on chains are also smart contracts. While native tokens/coins are not.
+    
+    - Take reference from Github for "ManualToken.sol" contract completion. Here: https://github.com/smartcontractkit/hardhat-starter-kit 
+    - Write a deploy script and tests for "OurToken.sol"
